@@ -1,0 +1,70 @@
+/* estilo da logo que e ficara presente durante o uso da pagina */
+.logomnu{
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+    padding-left: 12px;
+    /* padding: 10px; */
+    top: 9px
+}
+.logoTB{
+    height: 45px;
+}
+
+/* estilo do placeHolder da caixa de pesquisa */
+.inpLabelTB {
+    color: #000000;
+    position: relative;
+    right: 78%;
+    top: 0px;
+    transition: color;
+    transform: translateY(-18px);
+    transition: all 1.2s ease ;
+}
+.pesquisar:hover .inpLabelTB{
+    top: -19.5px ;
+    color:#22ffb6;
+}
+.pesquisar:active{
+    top: -18px ;
+    color: #22ffb6;
+}
+.Btnpost{
+    font-size: larger;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: #22ffb6;;
+}
+
+
+.inpPesc{
+    width: 75%;
+    padding: 4px;
+    margin: 2%;
+}
+
+html,
+body,
+main,.menu_lateral {
+    height: 100%;
+    ;
+}
+.menu_lateral{
+    background-color: aliceblue;
+    width:20%;
+}
+
+.btnNav{
+    display: block;
+    padding: 3px;
+    margin: 10%;
+    font-size: large;
+    border-radius: 8px;
+    background-color: #22ffb6;
+    border-color: #22ffb6;
+}
+
