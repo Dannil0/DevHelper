@@ -7,11 +7,14 @@
     text-align: left;
     display:inline-block;
     width: 50%;
+    padding-left: 1%;
 }
+
 .cabecalho{
     text-align: right;
     display: inline-block;
     width: 49%;
+    padding-right: 1%;
 }
 
 .cadUser{
@@ -22,22 +25,22 @@
     width: 33%;
     background-color: white;
     padding: 1%;
-    font-size: larger;}
-.login {
+    font-size: larger;
+    height: 100%;
+}
 
+.login {
     left: 60%;
     position: relative;
     display: block;
     text-align: center;
     width: 40%;
     background-color: white;
-   
     font-size: larger;
-
 }
 
 .user {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     width: 98%;
     margin: 0.72%;
 }
@@ -62,6 +65,9 @@ body {
     color: white;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 html,
@@ -74,18 +80,18 @@ main.login, main.cadUser{
 #btnLog {
     font-size: larger;
     position: relative;
-    top: 20%;
+    top: 5%;
     padding: 3%;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
     background-color: #22ffb6;
 }
 
 .mnu {
     position: relative;
-  
     width: 100%;
-    
     border-radius: 15px;
+    border: solid 1px black;
     background-color: #22ffb6;
 }
 
@@ -135,16 +141,20 @@ input:not(:placeholder-shown)+.inpLabel {
     display: inline-block;
     width: 32%;
 }
+
 h1{
     text-align: left;
     display: inline-block;
     width: 32%;
 }
 
-.containerLogo{
-    position:sticky;
-    bottom: 26%;
-    width: auto;
-    padding-top: 25;
-    padding-bottom: 25;
+/*.containerLogo{
+
+
+}*/
+
+.containerLogo img {
+    height: 300px;
+    padding: 0;
+    margin: 0;
 }
