@@ -23,21 +23,6 @@ function recebeDadoDeLogin() {
     }
 }
 
-/*
-let postagem = {
-    titulo: 'a',
-    mesangem: 'b',
-    autor: 'c',
-    visualizacoes: 10,
-    comentarios : [
-        { autor: 'a',mesangem:'b' },
-        { autor: 'a', mesangem:'b'}
-    ],
-    estaAoVivo:true
-}
-*/
-//console.log(postagem);
-
 function Postagem(titulo,mensagem,autor){
     this.titulo = titulo,
     this.mensagem = mensagem,
