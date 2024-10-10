@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Russo One', sans-serif;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
 .nome{
     color: white;
     padding-bottom: 120px;
+    padding-top: 5px;
 }
 
 .pesquisar {
