@@ -1,5 +1,6 @@
 <!DOCTYPE html5s>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,32 +10,25 @@
 </head>
 
 <!-- Só pra ver se foi no do Joao -->
+
 <body>
     <div class="title">
-        <h1 class="logo">DevHelper</h1>
-        <p class="cabecalho">Seja bem vindo ao DevHelper</p>
+        <h1 class="nome">DevHelper</h1>
+        <p class="boasVindas">Seja bem vindo ao DevHelper</p>
     </div>
 
-    <main class="cadUser">
-
+    <div class="containerDasCoisas">
         <div class="containerLogo">
             <img src="./assets/DevHelperLogo.png" alt="Logo do Projeto">
         </div>
 
-        <h2 class="mnu">Cadastro</h2>
-        <div class="user">
-            <span class="inpLabel" for="eMail">Usuario</span>
-            <input class="boxLog" type="text" name="inputnome" id="eMail" placeholder=" ">
+        <div class="containerConteudo">
+            <input class="boxLog" type="text" name="inputnome" id="eMail" placeholder="Usuário">
+            <input class="boxLog" type="text" name="inputsenha" id="PassW" placeholder="Senha">
+            <button id="btnLog" type="button" onclick="recebeDadoDeLogin()">Logar</button>
         </div>
-
-        <div class="user">
-            <span class="inpLabel" for="PassW">Senha</span>
-            <input class="boxLog" type="text" name="inputsenha" id="PassW" placeholder=" ">
-            
-        </div>
-
-        <button id="btnLog" type="button" onclick="recebeDadoDeLogin()" >Cadastrar</button>
-    </main>   
-    <script src="js/scr.js"></script> 
+    </div>
+    <script src="js/scr.js"></script>
 </body>
+
 </html>
