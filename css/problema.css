@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPrincipal {
+    height: 85%;
+    width: 90%;
+    background-color: #22ffb6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.containerEsquerda {
+    width: 55%;
+    padding: 1%;
+}
+
+.tituloProblema {
+    padding-bottom: 5%;
+}
+
+p {
+    margin: 0;
+    padding-top: 4%;
+}
+
+.desmarcarTodos {
+    margin-top: 2%;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.containerDireita {
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uploadArquivo {
+    border: 1px solid black;
+    width: 40%;
+}
