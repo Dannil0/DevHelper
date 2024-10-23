@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #22ffb6;
+}
+
+.perfil{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    left: 5%;
+    top: 5%;
+    border-radius: 2%;
+}
+
+.inpTitulo{
+    position:relative;
+    left: 6%;
+    top: 6%;
+}
+
+.inpDescricao{
+    position:relative;
+    left: 6%;
+    top: 6%;
+}
